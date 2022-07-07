@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ font-size: 50px;
+ 
+}
+
+h2 {
+ font-family: Helvetica, sans-serif;
+ font-size: 35px;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 300px;
+    justify-content: center;
+}
